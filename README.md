@@ -1,5 +1,4 @@
 # README #
-
 This is a 2D, single grid test code for LBM written in MATLAB to serve as an introduction to the method using an implementation that resembles the full multi-grid parallel code.
 
 # NOTES #
