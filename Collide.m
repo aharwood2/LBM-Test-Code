@@ -1,4 +1,4 @@
-function [fnew, feq] = Collide(rho,w,c,u,cs,feq,N,M,f,omega)
+function [fnew, feq] = Collide(rho,w,c,u,cs,feq,N,M,f,omega,force_i)
 % Loop through the lattice points to compute the new ditribution functions.
 % Equilibrium based on:
 %       rho * w * (1 + c_ia u_a / cs^2 + Q_iab u_a u_b / 2*cs^4
@@ -35,7 +35,7 @@ for i = 1:N
 end
 
 % Recompute distribution function f
-fnew = (-omega * (f - feq) ) + f;
+fnew = (-omega * (f - feq) ) + f + force_i;
     
 end
     
