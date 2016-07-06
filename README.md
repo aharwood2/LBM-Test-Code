@@ -3,7 +3,7 @@ This repository will be renamed 3rd/4th March 2016 to allow for the introduction
 
 
 # README #
-This is a 2D, single grid test code for LBM written in MATLAB to serve as an introduction to the method using an implementation that resembles the full multi-grid parallel code.
+This is a 2D/3D, single grid test code for LBM written in MATLAB to serve as an introduction to the method using an implementation that resembles the full multi-grid parallel code.
 
 ## NOTES ##
 The code contains no boundary conditions other than periodicity applied on all 4 edges.
