@@ -90,7 +90,7 @@ Visuals(N,M,K,x,y,z,u,rho,0);
 %% LBM loop
 tic
 for t = 1 : T
-    
+    disp(t)
     % Generate force vectors
     [forces_i, forces_xy] = Force(forces_i,forces_xy,LatTyp,...
         N,M,K,F_extern,F_dir,rho,u,omega,w,cs,c);
